@@ -12,6 +12,7 @@ Pada project ini saya melakukan implementasi sistem ERP Odoo untuk operasional t
   - Manufacturing Order -> Produk Jadi
 - Penjualan
   - Sales Order -> Kirim -> Customer Invoice -> Payment
+
 **Penjelasan:**
 1. Bahan baku (tepung, gula, dll) dibeli melalui modul Purchase.
 2. Barang diterima dan masuk ke stok gudang (Inventory).
@@ -30,6 +31,7 @@ Gudang dibagi menjadi dua lokasi utama, yaitu:
    - Roti tawar
    - Roti manis
 Struktur ini dibuat untuk memisahkan pergerakan bahan baku dan produk jadi agar tidak saling tercampur.
+
 
 
 
