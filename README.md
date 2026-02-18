@@ -7,9 +7,10 @@ Pada project ini saya melakukan implementasi sistem ERP Odoo untuk operasional t
 - Manufacturing
 # 2. Alur Operasional Toko Roti
 - Pengadaan Bahan Baku-Pembayaran
-  Vendor -> PO -> Receipt -> Vendor Bill -> Payment
+  - Vendor -> PO -> Receipt -> Vendor Bill -> Payment
 - Manufacture-Stok
-  Manufacturing Order -> Produk Jadi
+  - Manufacturing Order -> Produk Jadi
 - Order-Cash
-  Sales Order -> Kirim → Customer Invoice → Payment
+  - Sales Order -> Kirim → Customer Invoice → Payment
+
 
