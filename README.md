@@ -1,4 +1,4 @@
-# Odoo Toko Roti Progres
+# "Odoo Toko Roti Progres" #
 Pada project ini saya melakukan implementasi sistem ERP Odoo untuk operasional toko roti.
 
 # 1. Modul yang digunakan
@@ -8,3 +8,4 @@ Pada project ini saya melakukan implementasi sistem ERP Odoo untuk operasional t
 - Inventory
 - Manufacturing
   
+
