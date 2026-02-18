@@ -3,7 +3,7 @@
 mengelola pembelian bahan baku dari vendor.
 1. Create Vendor
    - Masuk ke menu "Purchase - Vendor - Create"
-   - Isi nama, alamat, email, nomor telepon.
+   - Isi nama, email, nomor telepon.
    - Save.
 2. Buat PO
    - Purchase - Orders - Requests for Quotation - New
@@ -28,15 +28,58 @@ mengelola stok dan pergerakan barang.
    - Inventory → Operations → Internal Transfers
    - Digunakan jika perlu memindahkan barang antar gudang
 # 3. MODUL MANUFACTURING
-
-1. MODUL SALES
-- Questions (Masih dalam bentuk draft, contohnya saat kita memasukan barang ke keranjang)
-- Orders (Pesanan sudah tervalidasi dan siap dikirim/ditagih)
-Alur pemesanan:
-- Question New (masukan nama pembeli dan barang yang mau di beli(add product) - bar other info/warehouse (diubah ke - Gudang produk jadi)) lalu klik confirm.
-- Klik delivery (gambar mobil) - semuanya di validate
-- Setelah validate (klik order) dan lakukan pembayaran (create invoice) lalu payment.
-
-
-
-
+mengelola proses produksi roti
+1. Buat Bill of Materials (BoM)
+   - Manufacturing - Products - Bill of Materials - New
+   - Pilih produk jadi (Roti Tawar)
+   - Tambahkan bahan baku (Tepung 1kg, Ragi 10g, dll)
+   - Centang BoM Type: Manufacture this product
+   - Save
+2. Manufacturing Order (MO)
+   - Manufacturing - Operations - Manufacturing Orders - Create
+   - Pilih produk jadi
+   - Isi quantity (misal: 10 roti)
+   - Sistem otomatis hitung bahan baku yang dibutuhkan dari BoM
+   - Klik "Confirm"
+3. Proses Produksi
+   - Klik "Produce All" untuk mulai
+   - Sistem otomatis:
+     - Kurangi stok bahan baku (modul Inventory)
+     - Tambah stok produk jadi (modul Inventory)
+# 4. MODUL SALES
+mengelola pesanan dan penjualan ke pelanggan.
+1. Buat Customer
+   - Sales - Customers - Create
+   - Isi nama pelanggan
+   - Save
+2. Buat Sales Order (SO)
+   - Sales - Orders - Quotations - New
+   - Pilih customer
+   - Tambahkan produk (Roti Tawar, Roti Manis)
+   - Isi quantity
+   - Klik "Confirm"
+3. Proses Pengiriman
+   - Setelah SO confirm, Delivery Order otomatis dibuat
+   - Setelah barang dikirim klik "Validate"
+4. Buat Invoice
+   - Di SO klik "Create Invoice"
+   - Pilih "Regular Invoice", lalu klik "Create Draft"
+   - Klik "Confirm" dan "Pay", setelah itu klik "Create Payment"
+   - Klik "Send" untuk otomatis terkirim ke email customer atau klik "Print" untuk mengunduh PDF.
+# 5. MODUL INVOICING
+membuat dan mengelola faktur penjualan/pembelian
+A. Customer Invoice (Piutang)
+1. Lihat Semua Invoice
+   - Invoicing - Customers - Invoices
+   - Untuk melihat daftar invoice yang sudah dibuat dari Sales
+2. Validasi Invoice
+   - Buka invoice yang status "Draft"
+   - Klik "Confirm
+   - Klik "Validate"
+   - Status berubah jadi "Posted"
+3. Terima Pembayaran
+   - Buka invoice yang sudah "Posted"
+   - Klik "Pay"
+   - Pilih metode pembayaran (Tunai/Transfer)
+   - Klik "Create Payment"
+   - Status invoice jadi "Paid"
