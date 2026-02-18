@@ -68,6 +68,7 @@ mengelola pesanan dan penjualan ke pelanggan.
    - Klik "Send" untuk otomatis terkirim ke email customer atau klik "Print" untuk mengunduh PDF.
 # 5. MODUL INVOICING
 membuat dan mengelola faktur penjualan/pembelian
+
 A. Customer Invoice (Piutang)
 1. Lihat Semua Invoice
    - Invoicing - Customers - Invoices
@@ -83,6 +84,7 @@ A. Customer Invoice (Piutang)
    - Pilih metode pembayaran (Tunai/Transfer)
    - Klik "Create Payment"
    - Status invoice jadi "Paid"
+
 B. Vendor Bill
 1. Lihat Vendor Bills
    - Invoicing - Vendors - Bills
@@ -91,3 +93,4 @@ B. Vendor Bill
    - Buka Vendor Bill yang sudah "Posted"
    - Klik "Pay" lalu klik "Create Payment"
    - Status invoice jadi "Paid"
+
