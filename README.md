@@ -8,5 +8,6 @@ Pada project ini saya melakukan implementasi sistem ERP Odoo untuk operasional t
 - Inventory
 - Manufacturing
 
-  # 2. Alur Bisnis Toko Roti
-  - Vendor -> Purchase Order -> Bahan diterima -> Manufacturing Order -> Produk Jadi -> Sales Order -> Kirim ke pelanggan.
+# 2. Alur Bisnis Toko Roti
+- Vendor -> Purchase Order -> Bahan diterima -> Manufacturing Order -> Produk Jadi -> Sales Order -> Kirim ke pelanggan.
+
