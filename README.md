@@ -32,8 +32,7 @@ Gudang dibagi menjadi dua lokasi utama untuk memisahkan pergerakan bahan baku da
 2. Gudang Produk Jadi (Untuk menyimpan semua produk roti yang sudah di produksi)
    - Roti tawar - satuan: unit
    - Roti manis - satuan: unit
-
-**Berikut beberapa fitur yang telah diimplementasikan:**
+# 4. Berikut beberapa fitur yang telah diimplementasikan
 1. Pembuatan Bill of Materials untuk Roti Tawar dan Roti Manis
 2. Sinkronisasi Server Email (SMTP Gmail) 
 3. Replenishment rule pada produk jadi untuk otomatis membuat Manufacturing Order (produksi) saat stok menipis
@@ -41,6 +40,7 @@ Gudang dibagi menjadi dua lokasi utama untuk memisahkan pergerakan bahan baku da
 5. Proses penerimaan barang (Receipt)
 6. Proses produksi menggunakan Manufacturing Order
 7. Proses penjualan dan delivery
+
 
 
 
