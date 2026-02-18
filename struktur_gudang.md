@@ -1,1 +1,2 @@
-# Alur Proses ERP Odoo 
+# Struktur Gudang ERP Odoo 
+
