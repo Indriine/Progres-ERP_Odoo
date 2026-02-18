@@ -83,3 +83,11 @@ A. Customer Invoice (Piutang)
    - Pilih metode pembayaran (Tunai/Transfer)
    - Klik "Create Payment"
    - Status invoice jadi "Paid"
+B. Vendor Bill
+1. Lihat Vendor Bills
+   - Invoicing - Vendors - Bills
+   - Untuk melihat tagihan yang dibuat dari Purchase
+2. Bayar ke Vendor
+   - Buka Vendor Bill yang sudah "Posted"
+   - Klik "Pay" lalu klik "Create Payment"
+   - Status invoice jadi "Paid"
