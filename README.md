@@ -1,4 +1,9 @@
 Pada project ini saya melakukan implementasi sistem ERP Odoo untuk operasional toko roti. Tujuan implementasi ini adalah untuk mengintegrasikan proses pembelian bahan baku, produksi roti, manajemen stok, hingga penjualan dalam satu sistem yang terstruktur dan terdokumentasi.
+Implementasinya meliputi:
+- Pembelian bahan baku
+- Produksi roti
+- Manajemen stok
+- Penjualan produk
 # 1. Modul yang digunakan
 - Sales: Untuk mengelola pesanan dan penjualan ke pelanggan. 
 - Invoicing: Untuk membuat dan mengelola faktur penjualan/pembelian.
@@ -40,6 +45,7 @@ Gudang dibagi menjadi dua lokasi utama untuk memisahkan pergerakan bahan baku da
 5. Proses penerimaan barang (Receipt)
 6. Proses produksi menggunakan Manufacturing Order
 7. Proses penjualan dan delivery
+
 
 
 
